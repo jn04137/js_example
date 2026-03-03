@@ -28,6 +28,9 @@ const jumps = inputs[2]
 // Create a new person with name and age from inputs
 let person = new Person(inputName, age)
 
+// print how old the person is
+console.log(`${person.name} is ${person.age} years old.`)
+
 // If jumps is 4, i will go from 0, 1, 2, 3 and stop once i is equal to 4
 // 4 is not greater than 4, so the loop will stop at that point
 for(let i = 0; i < jumps; i++) { 
